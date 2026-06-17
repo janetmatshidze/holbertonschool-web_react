@@ -1,0 +1,5 @@
+
+.notification-items{
+    border: 2px dotted var(--red);
+    padding: 10px;
+}

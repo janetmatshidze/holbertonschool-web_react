@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ --red: #e1003c;
+}
+
+.App-header {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid var(--red);
+}
+
+.App-logo{
+  width: 200px;
+}
+
+.App-header h1
+{
+ color: var(--red);
+ margin-left: 20px;
+ 
+}
+
+.App-body p {
+  margin: 25px;
+}
+
+.App-footer {
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 2px solid var(--red);
+  font-style: italic;
+}
+
